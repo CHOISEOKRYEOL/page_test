@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 const path = require('path');
 
-app.get('https://fancy-chimera-4d3e91.netlify.app/', (req,res)=>{
+app.get('/app', (req,res)=>{
     const dbReq = indexedDB.open('opentutorials',1);
     let db;
     dbReq.addEventListener('success', function(event){
