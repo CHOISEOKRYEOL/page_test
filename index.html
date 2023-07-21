@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./index.js" defer></script>
+    <title>Document</title>
+</head>
+<body>
+    <form onsubmit="return false" method="post" id="form1">
+        <span>UTC를 보낼 지갑주소</span><br>
+        <input type="text" size="30" value="" name="utc_wal" id="utc_wal"><br>
+        <span>이메일</span><br>
+        <input type="text" size="30" value="" name="email" id="email"><br>
+        <span>보낸 지갑주소(이더리움)</span><br>
+        <input type="text" size="30" value="" name="eth_wal" id="eth_wal"><br>
+        <span>보낸 수량</span><br>
+        <input type="text" size="30" value="" name="amount" id="amount"><br>
+        <span>TXID(Transaction_ID)</span><br>
+        <input type="text" size="30" value="" name="txid" id="txid"><br>
+        <span>받을 지갑주소(클레이튼)</span><br>
+        <input type="text" size="30" value="" name="kla_wal" id="kla_wal"><br><br>
+        <input type="submit" value="제출" onclick='inputValue()'>
+    </form>
+</form>
+</body>
+</html>
